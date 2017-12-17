@@ -1,9 +1,12 @@
 {
   "name": "Liberated Wikipedia",
   "description": "A chrome extension which allows user to enter Wikipedia in countries which it is restricted.",
-  "version": "1.0",
+  "version": "1.0.0",
   "manifest_version": 2,
   "background": {"scripts":["background.js"]},
+  "icons": { "16": "liberated_wikipedia_logo16.png",
+           "48": "liberated_wikipedia_logo48.png",
+          "128": "liberated_wikipedia_logo128.png" },
   "permissions": [
     "webRequest",
     "tabs",
