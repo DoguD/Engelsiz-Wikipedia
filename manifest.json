@@ -9,7 +9,6 @@
           "128": "liberated_wikipedia_logo128.png" },
   "permissions": [
     "webRequest",
-    "tabs",
     "*://*.wikipedia.org/*",
     "*://wikipedia.org/*",
     "*://www.wikipedia.org/*",

@@ -5,8 +5,8 @@
 chrome.webRequest.onBeforeRequest.addListener(
     function(details) {
          var host = details.url
-         var i = host.indexOf("wi")
-         var urlToRedirect = host.substr(0,i)+"0"+host.substr(i,host.length)
+         var i = host.indexOf("a.org")
+         var urlToRedirect = host.substr(0,i)+"0"+host.substr(i+1,host.length)
          return {redirectUrl: urlToRedirect};
     },
     {
